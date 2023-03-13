@@ -4,6 +4,7 @@ body {
   margin: 0;
   padding: 0;
   font-weight: bold;
+  background-color: black;
 }
 
 /* Estilos del encabezado */
@@ -14,8 +15,8 @@ header {
   text-align: center;
 }
 
-h1 {
-  color: white;
+h1, h2 {
+  color: green;
   font-family: monospace;
   margin: 0;
 }
@@ -46,9 +47,17 @@ main {
 }
 
 section {
-  margin-bottom: 20px;
+  margin-bottom: 33px;
+  text-align: center;
 }
 
+section a img{
+  width: 69%;
+}
+
+section p{
+  color: green;
+}
 h2 {
   font-size: 24px;
   margin-bottom: 10px;

@@ -3,17 +3,19 @@ body {
   font-family: monospace;
   margin: 0;
   padding: 0;
+  font-weight: bold;
 }
 
 /* Estilos del encabezado */
 header {
-  background-color: #333;
+  background-color: black;
   color: #fff;
   padding: 10px;
+  text-align: center;
 }
 
 h1 {
-  color: green;
+  color: white;
   font-family: monospace;
   margin: 0;
 }
@@ -61,4 +63,5 @@ footer {
 
 footer p {
   color: white;
+  font-weight: bold;
 }

@@ -1,18 +1,22 @@
 /* Estilos globales */
 body {
-  font-family: Arial, sans-serif;
+  font-family: monospace;
   margin: 0;
   padding: 0;
+  font-weight: bold;
 }
 
 /* Estilos del encabezado */
 header {
-  background-color: #333;
+  background-color: black;
   color: #fff;
   padding: 10px;
+  text-align: center;
 }
 
 h1 {
+  color: white;
+  font-family: monospace;
   margin: 0;
 }
 
@@ -52,7 +56,12 @@ h2 {
 
 /* Estilos del pie de página */
 footer {
-  background-color: #eee;
+  background-color: black;
   padding: 10px;
   text-align: center;
+}
+
+footer p {
+  color: white;
+  font-weight: bold;
 }
